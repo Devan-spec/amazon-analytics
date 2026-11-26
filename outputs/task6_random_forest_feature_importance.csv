@@ -1,0 +1,12 @@
+feature,importance
+num__rating_count,0.3493412329596561
+num__discounted_price,0.19507437174171355
+num__discount_percentage,0.1930367120165875
+num__actual_price,0.17495275789068496
+cat__main_category_Computers&Accessories,0.042064764151528815
+cat__main_category_Home&Kitchen,0.024077274503893888
+cat__main_category_Electronics,0.014172112973667777
+cat__main_category_OfficeProducts,0.0071830593524711646
+cat__main_category_MusicalInstruments,9.771440979637669e-05
+cat__main_category_Health&PersonalCare,0.0
+cat__main_category_HomeImprovement,0.0

@@ -1,0 +1,5 @@
+metric,value
+raw_rows,1465
+unique_product_ids,1351
+product_level_rows,1348
+rows_removed_by_validation,3

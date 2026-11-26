@@ -1,0 +1,2 @@
+top10_overlap_count,top10_overlap_fraction,original_weights,alternative_weights
+9,0.9,"{'rating_norm': np.float64(0.45), 'popularity_norm': np.float64(0.25), 'discount_norm': np.float64(0.15), 'affordability_norm': np.float64(0.15)}","{'rating_norm': np.float64(0.4), 'popularity_norm': np.float64(0.3), 'discount_norm': np.float64(0.15), 'affordability_norm': np.float64(0.15)}"

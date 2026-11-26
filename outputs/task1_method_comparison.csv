@@ -1,0 +1,3 @@
+method,clusters,silhouette
+KMeans,3,0.2600900370547037
+Agglomerative,3,0.22440481801538298

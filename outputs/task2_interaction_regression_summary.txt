@@ -1,0 +1,45 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 rating   R-squared:                       0.131
+Model:                            OLS   Adj. R-squared:                  0.120
+Method:                 Least Squares   F-statistic:                 2.730e+04
+Date:                Thu, 26 Nov 2026   Prob (F-statistic):               0.00
+Time:                        16:44:13   Log-Likelihood:                -172.78
+No. Observations:                1348   AIC:                             379.6
+Df Residuals:                    1331   BIC:                             468.1
+Df Model:                          16                                         
+Covariance Type:                  HC3                                         
+=================================================================================================================================
+                                                                    coef    std err          z      P>|z|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------------------------------
+Intercept                                                        -0.3167      2.975     -0.106      0.915      -6.147       5.514
+C(main_category)[T.Computers&Accessories]                         4.0444      2.975      1.360      0.174      -1.786       9.875
+C(main_category)[T.Electronics]                                   3.9557      2.975      1.330      0.184      -1.874       9.786
+C(main_category)[T.Health&PersonalCare]                          -0.0003      0.002     -0.125      0.901      -0.005       0.004
+C(main_category)[T.Home&Kitchen]                                  4.0479      2.975      1.361      0.174      -1.782       9.878
+C(main_category)[T.HomeImprovement]                             -24.2739     20.480     -1.185      0.236     -64.414      15.867
+C(main_category)[T.MusicalInstruments]                            3.4772      4.796      0.725      0.468      -5.922      12.876
+C(main_category)[T.OfficeProducts]                                4.2439      2.975      1.427      0.154      -1.586      10.074
+C(main_category)[T.Toys&Games]                                    4.1852      2.975      1.407      0.159      -1.645      10.015
+discount_percentage                                               0.0869      0.087      1.003      0.316      -0.083       0.257
+discount_percentage:C(main_category)[T.Computers&Accessories]    -0.0876      0.087     -1.012      0.312      -0.257       0.082
+discount_percentage:C(main_category)[T.Electronics]              -0.0884      0.087     -1.020      0.308      -0.258       0.081
+discount_percentage:C(main_category)[T.Health&PersonalCare]      -0.0144      0.115     -0.125      0.901      -0.240       0.212
+discount_percentage:C(main_category)[T.Home&Kitchen]             -0.0906      0.087     -1.047      0.295      -0.260       0.079
+discount_percentage:C(main_category)[T.HomeImprovement]           0.4069      0.344      1.185      0.236      -0.266       1.080
+discount_percentage:C(main_category)[T.MusicalInstruments]       -0.0822      0.106     -0.775      0.438      -0.290       0.126
+discount_percentage:C(main_category)[T.OfficeProducts]           -0.0890      0.087     -1.028      0.304      -0.259       0.081
+discount_percentage:C(main_category)[T.Toys&Games]                     0          0        nan        nan           0           0
+log_actual_price                                                  0.0331      0.006      5.286      0.000       0.021       0.045
+log_rating_count                                                  0.0275      0.005      4.995      0.000       0.017       0.038
+==============================================================================
+Omnibus:                      211.794   Durbin-Watson:                   1.866
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              773.011
+Skew:                          -0.734   Prob(JB):                    1.39e-168
+Kurtosis:                       6.407   Cond. No.                     1.08e+34
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+[2] The smallest eigenvalue is 4.2e-62. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.
